@@ -4,5 +4,4 @@ let body = document.getElementById("body");
 boutton.addEventListener("click",function(event){
     event.preventDefault();
     body.classList.toggle("toggles");
-
 });
